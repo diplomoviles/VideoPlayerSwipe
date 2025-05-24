@@ -9,6 +9,8 @@ class VideoViewHolder(
     private val binding: ItemVideoBinding
 ): RecyclerView.ViewHolder(binding.root) {
 
+    val ic_fav = binding.icFav
+
     fun bind(video: Video){
 
         binding.apply {
